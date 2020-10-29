@@ -6,5 +6,5 @@ def reverse_each_word( sentence )
     result += word.reverse
     result += " "
   end
-  result
+  result[0...result.length-1]
 end
