@@ -1,7 +1,7 @@
 def reverse_each_word( sentence )
   wordArray = sentence.split( ' ' )
-  resultString = ''
+  resultArray = ''
   wordArray.collect do |word|
-    resultString = resultString + word.reverse + " "
+    word.reverse + " "
   end
 end
